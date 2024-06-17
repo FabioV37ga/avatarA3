@@ -8,6 +8,9 @@ Lucas Ota - 822166298 <br>
 
 Em resumo, estão sendo utilizados os widgets 5 e 6, mais um arquivo novo widget10.js, que é responsável por utilizar o código hash para determinar os caracteres que constituirão o rosto do avatar.
 
+<img src="./assets/tela04.png" style="margin-bottom: 10px;"/>
+
+
 <img src="./public/logo.png" style="margin-bottom: 10px;"/>
  
 > 1.0
