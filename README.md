@@ -4,11 +4,13 @@ Fabio Veiga - 822129856 <br>
 Gustavo Enzo - 822226174 <br>
 Lucas Ota - 822166298 <br>
 
+## Adaptações do código
 
+Em resumo, estão sendo utilizados os widgets 5 e 6, mais um arquivo novo widget10.js, que é responsável por utilizar o código hash para determinar os caracteres que constituirão o rosto do avatar.
 
 <img src="./public/logo.png" style="margin-bottom: 10px;"/>
  
-> Versão alpha beta gama ....
+> 1.0
 >
 
 ## Como rodar?
