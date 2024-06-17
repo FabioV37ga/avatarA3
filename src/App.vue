@@ -39,7 +39,7 @@ export default {
 
     keyChanged(key) {
       this.$refs.svg_view_ref.refresh(key)
-      console.log(key);
+      //console.log(key);
     }
   },
 }

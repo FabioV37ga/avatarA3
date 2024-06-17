@@ -1,0 +1,35 @@
+.face-overlay{
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    pointer-events: none
+}
+
+div#face {
+    position: absolute;
+    flex-direction: column;
+    font-size:80px;
+    top: 305px;
+}
+
+.eyes{
+    justify-content: space-between;
+    display: flex;
+    width: 166px;
+}
+
+.nose{
+    position: absolute;
+    top: 40px;
+    left: 62px;
+    font-size: .8em;
+}
+
+.mouth{
+    position: absolute;
+    top: 100px;
+    left: 62px;
+    font-size: .5em;
+}
