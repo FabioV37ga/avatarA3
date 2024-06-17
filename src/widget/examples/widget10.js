@@ -8,6 +8,11 @@ export default function (key, draw) {
     for (let i = 0; i <= key.params.length - 1; i++) {
         random += key.params[i].dec;
     }
+    // console.log(random)
+    // Resumidamente, utiliza a somatória do código hash para gerar um grande número que vai ter 3 digitos extraídos.
+    // Cada um desses dígitos corresponde respectivamente aos olhos, nariz e boca do avatar.
+    // No final, são gerados 2 circulos, um de cor baseada no hash e outro preto (por trás) para fazer uma borda.
+    
     random *= random;
     random = random.toString().split("")
     random = [random[4], random[5], random[6]]
@@ -21,31 +26,31 @@ export default function (key, draw) {
             olhos = "O";
             break;
         case "1":
-            olhos = "U";
+            olhos = "ಠ";
             break;
         case "2":
             olhos = "Q";
             break;
         case "3":
-            olhos = "@";
+            olhos = "ಥ";
             break;
         case "4":
             olhos = "♥";
             break;
         case "5":
-            olhos = "®";
+            olhos = "U";
             break;
         case "6":
-            olhos = "[]";
+            olhos = "°";
             break;
         case "7":
-            olhos = "$";
+            olhos = "▰";
             break;
         case "8":
-            olhos = "Ø";
+            olhos = "◕";
             break;
         case "9":
-            olhos = "Õ";
+            olhos = "๏";
             break;
     }
 
@@ -54,13 +59,13 @@ export default function (key, draw) {
             nariz = "l";
             break;
         case "1":
-            nariz = "w";
+            nariz = "o";
             break;
         case "2":
-            nariz = "u";
+            nariz = "つ";
             break;
         case "3":
-            nariz = "_";
+            nariz = "-";
             break;
         case "4":
             nariz = ">";
@@ -69,10 +74,10 @@ export default function (key, draw) {
             nariz = "▼";
             break;
         case "6":
-            nariz = "9";
+            nariz = "u";
             break;
         case "7":
-            nariz = "Ꝉ";
+            nariz = "ʖ";
             break;
         case "8":
             nariz = "●";
@@ -84,7 +89,7 @@ export default function (key, draw) {
 
     switch (boca) {
         case "0":
-            boca = "vv";
+            boca = "‿";
             break;
         case "1":
             boca = "▬";
@@ -102,7 +107,7 @@ export default function (key, draw) {
             boca = "_";
             break;
         case "6":
-            boca = "∞";
+            boca = "vv";
             break;
         case "7":
             boca = "◦";
@@ -111,7 +116,7 @@ export default function (key, draw) {
             boca = "U";
             break;
         case "9":
-            boca = "Õ";
+            boca = "ᨓ";
             break;
     }
 

@@ -1,5 +1,10 @@
 ## Grupo
 
+Fabio Veiga - 822129856 <br>
+Gustavo Enzo - 822226174 <br>
+Lucas Ota - 822166298 <br>
+
+
 
 <img src="./public/logo.png" style="margin-bottom: 10px;"/>
  
