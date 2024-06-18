@@ -12,7 +12,7 @@ export default function (key, draw) {
     // Resumidamente, utiliza a somatória do código hash para gerar um grande número que vai ter 3 digitos extraídos.
     // Cada um desses dígitos corresponde respectivamente aos olhos, nariz e boca do avatar.
     // No final, são gerados 2 circulos, um de cor baseada no hash e outro preto (por trás) para fazer uma borda.
-    
+
     random *= random;
     random = random.toString().split("")
     random = [random[4], random[5], random[6]]
@@ -23,13 +23,13 @@ export default function (key, draw) {
 
     switch (olhos) {
         case "0":
-            olhos = "O";
+            olhos = "º";
             break;
         case "1":
             olhos = "ಠ";
             break;
         case "2":
-            olhos = "Q";
+            olhos = "ʘ";
             break;
         case "3":
             olhos = "ಥ";
@@ -38,7 +38,7 @@ export default function (key, draw) {
             olhos = "♥";
             break;
         case "5":
-            olhos = "U";
+            olhos = "⸟";
             break;
         case "6":
             olhos = "°";
@@ -56,7 +56,7 @@ export default function (key, draw) {
 
     switch (nariz) {
         case "0":
-            nariz = "l";
+            nariz = "Ɔ";
             break;
         case "1":
             nariz = "o";
@@ -65,7 +65,7 @@ export default function (key, draw) {
             nariz = "つ";
             break;
         case "3":
-            nariz = "-";
+            nariz = "Ʒ";
             break;
         case "4":
             nariz = ">";
@@ -83,7 +83,7 @@ export default function (key, draw) {
             nariz = "●";
             break;
         case "9":
-            nariz = "Ᵹ";
+            nariz = "ɷ";
             break;
     }
 
@@ -98,13 +98,13 @@ export default function (key, draw) {
             boca = "■";
             break;
         case "3":
-            boca = "O";
+            boca = "ᗜ";
             break;
         case "4":
             boca = "o";
             break;
         case "5":
-            boca = "_";
+            boca = "͝";
             break;
         case "6":
             boca = "vv";
@@ -113,7 +113,7 @@ export default function (key, draw) {
             boca = "◦";
             break;
         case "8":
-            boca = "U";
+            boca = "ω";
             break;
         case "9":
             boca = "ᨓ";
